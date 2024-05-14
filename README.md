@@ -6,12 +6,12 @@ Minikube repository
 - Using VirtualBox
 
 ```sh
-minikube start --kubernetes-version='v1.23.0' --driver='virtualbox' --memory=8196 -p gitops
+minikube start --driver='virtualbox' --memory=8196
 ```
 - Using Docker
 
 ```sh
-minikube start --driver='docker'
+minikube start --driver='docker' --memory=8196
 ```
 
 ## References
