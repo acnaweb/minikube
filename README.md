@@ -11,7 +11,7 @@ minikube start --kubernetes-version='v1.23.0' --driver='virtualbox' --memory=819
 - Using Docker
 
 ```sh
-minikube start 
+minikube start --driver='docker'
 ```
 
 ## References
